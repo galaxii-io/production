@@ -1,10 +1,9 @@
 {
     "remote": {
-      "dfees": 1000,
+      "dfees": 2500,
       "loadLimit": 12,
       "displayNodes": [
-        "https://snap1.d.tube",
-        "http://127.0.0.1:8080"
+        "https://display1.galaxii.io"
       ],
       "APINodes": [
         "https://api.steemit.com/",
@@ -16,12 +15,13 @@
         "https://api.steem.house/"
       ],
       "snapMaxFileSizeKB": 4096,
-      "upldr": ["cluster"]
+      "full_upldr": "https://upload1.galaxii.io",
+      "localhost": false
     },
     "app": "dtube/0.8",
-    "beneficiary": "dtube",
+    "beneficiary": "galaxii",
     "pageTitleSeparator": "-",
-    "appName": "DTube",
+    "appName": "Galaxii",
     "ipfs": "",
     "lang": {
       "bn": {"name": "বাংলা", "path": "bn/bn-BD.json"},
@@ -48,4 +48,3 @@
       "zh-TW": {"name": "中文 (繁體)", "path": "zh-TW/zh-TW.json"}
     }
   }
-  
